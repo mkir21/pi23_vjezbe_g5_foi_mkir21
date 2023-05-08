@@ -1,5 +1,5 @@
 ﻿namespace Evaluation_Manager {
-    partial class frm_evaluation {
+    partial class FrmEvaluation {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -176,7 +176,7 @@
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.button1_Click);
             // 
-            // frm_evaluation
+            // FrmEvaluation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -196,7 +196,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cboActivities);
             this.Controls.Add(this.Activity);
-            this.Name = "frm_evaluation";
+            this.Name = "FrmEvaluation";
             this.Text = "FrmEvaluation";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numPoints)).EndInit();
