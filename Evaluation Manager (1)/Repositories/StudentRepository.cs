@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Evaluation_Manager.Repositories {
-    public class StudentRepository{
+    public static class StudentRepository{
         public static Student GetStudent(int id) {
             Student student = null;
             string sql = $"SELECT * FROM Students WHERE Id = {id}";
